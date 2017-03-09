@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+html {
   background: #046380;
 }
 
@@ -17,8 +17,6 @@ h1 {
   color: #ddd;
   font-size: 40px;
   padding: 10px;
-  font-weight: 700;
-  border-bottom: none;
   text-transform: uppercase;
 }
 
@@ -63,7 +61,7 @@ nav ul {
   list-style: none;
   text-align: center;
   background: #10222B;
-  min-height: 55px;
+  height: 55px;
 }
 
 nav ul li {
