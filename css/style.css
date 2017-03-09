@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #046380;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {
+  background: #10222B;
+  color: #ddd;
+  font-size: 40px;
+  padding: 10px;
+  font-weight: 700;
+  border-bottom: none;
+  text-transform: uppercase;
+}
+
+h2 {
+  padding: 10px;
+  background: rgba(255,255,255,0.1);
+  color: #bbb;
+}
+
+h3 {
+  font-style: italic;
+  padding: 10px;
+  background: rgba(255,255,255,0.1);
+  color: #bbb;
+}
+
+div div {
+  padding: 24px;
+  background: rgba(255,255,255,0.3);
+}
+
+div div:nth-child(2){
+  background: rgba(255,255,255,0.4);
+}
+
+div div:nth-child(3){
+  background: rgba(255,255,255,0.5);
+}
+
+div p {
+  padding: 10px;
+}
+
+div p:first-child {
+  background: rgba(255,255,255,0.3);
+  padding: 10px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  background: #10222B;
+  min-height: 55px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 5px;
+  width: 20%;
+}
+
+nav ul li a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px;
+  transition: .5s;
+}
+
+nav ul li a:hover {
+  background: #ccc;
+  color: #10222B;
+  border-radius: 10px;
+}
+
+footer p {
+  padding: 20px;
+  text-align: center;
+  color: #ddd;
+}
